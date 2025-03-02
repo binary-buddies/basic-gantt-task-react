@@ -29,7 +29,7 @@ export const TaskListHeaderDefault: React.FC<{
         >
           &nbsp;Name
         </div>
-        <div
+        {/* <div
           className={styles.ganttTable_HeaderSeparator}
           style={{
             height: headerHeight * 0.5,
@@ -58,7 +58,7 @@ export const TaskListHeaderDefault: React.FC<{
           }}
         >
           &nbsp;To
-        </div>
+        </div> */}
       </div>
     </div>
   );
